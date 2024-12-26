@@ -1,0 +1,197 @@
+#title{
+background-color: #ff4c68;
+color: #fff;
+}
+
+h1{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid1{
+padding: 3% 15%;
+}
+
+.container-fluid{
+padding-left: 0;
+}
+
+body{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.navbar-brand{
+font-family: "Ubuntu", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 2.5rem;
+padding-left: 0;
+}
+
+.navbar{
+padding-bottom: 4.5rem;
+}
+
+.nav-item{
+padding: 0 18px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.download-button{
+margin: 5% 8% 5% 0;
+}
+
+.title-image{ 
+    width: 17%; 
+transform: rotate(25deg);
+position: absolute;
+right: 20%;
+}
+
+#features{
+padding: 3% 15% 7%;
+position: relative;
+background-color: #fff;
+}
+
+h3{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+
+.icon{
+margin-bottom: 1rem;
+color: #ff4c68;
+}
+
+.icon:hover{
+color: #ffa9b6;
+}
+
+#testimonials{
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+
+.testimonial-image{
+width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+h2{
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+
+#press{
+background-color: #ef8172;
+text-align: center;
+padding-bottom:  3%;
+}
+
+.press-logo{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#pricing{
+padding: 100px;
+text-align: center;
+}
+
+.pricing-column{
+padding: 3% 5%;
+}
+
+#cta{
+background-color: #ff4c68;
+text-align: center;
+}
+
+.love{
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 55px;
+    color: white;
+    padding: 100px 200px 0;
+}
+
+.apple{
+padding-right: 5px;
+}
+
+.downloads-button{
+margin-left: 30px;
+margin-top: 70px;
+margin-bottom: 150px;
+}
+
+#footer{
+text-align: center;
+background-color: #fff;
+}
+
+.copyright{
+margin-top: 30px;
+font-size: 20px;
+color: gray;
+}
+
+.social{
+padding-right: 10px;
+padding-top: 50px;
+}
+
+
+@media ( max-width: 1048px) {
+#title{
+text-align: center;
+}
+ 
+.title-image{ 
+   width: 50%;
+    transform: rotate(0);
+    position: static;
+    right: 20%;
+    }
+}
+
+@media (max-width: 817px)  {
+.love{
+font-size: 3rem;
+}
+}
+
+@media (max-width:613px) {
+    .love{
+        font-size: 1.5rem;
+        }
+}
